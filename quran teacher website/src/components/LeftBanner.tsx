@@ -4,16 +4,20 @@ import {
   FaYoutube,
   FaQuran,
   FaWhatsapp,
-  FaMosque,
   FaKaaba,
   FaPray,
+  FaBook,
 } from "react-icons/fa";
 
 import { FadeIn } from "./FadeIn";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Quran Teacher", "Tajweed Teacher", "UI Designer."],
+    words: [
+      "Professional Quran Teacher",
+      "Tajweed Teacher",
+      "Secondary & Advanced Education",
+    ],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -32,10 +36,10 @@ const LeftBanner = () => {
           <Cursor cursorStyle="|" cursorColor="#ff014f" />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wider">
-          I teach the Noorani Qaida Course, Quran Reading Course, Quran
-          Recitation, Tajweed Course, Hifz (Quran Memorization) program, 40
-          Duas, 40 Hadith, and Basic Islamic Teachings.
-          
+          Master's-level staff committed to educational excellence. Our team
+          blends deep subject expertise in Quranic studies and FSC Physics,
+          Chemistry, and Math, ensuring comprehensive guidance for holistic
+          student development.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -74,7 +78,7 @@ const LeftBanner = () => {
               <FaQuran />
             </span>
             <span className="bannerIcon">
-              <FaMosque />
+              <FaBook />
             </span>
             <span className="bannerIcon">
               <FaKaaba />

@@ -1,5 +1,10 @@
-
-import {  FaQuran, FaMosque, FaPray, FaPrayingHands, FaKaaba } from "react-icons/fa";
+import {
+  FaQuran,
+  FaMosque,
+  FaPray,
+  FaPrayingHands,
+  FaKaaba,
+} from "react-icons/fa";
 import { SiProgress } from "react-icons/si";
 import Card from "./Card";
 import Title from "./Title";
@@ -12,7 +17,7 @@ const Feature = () => {
       className="w-full py-20 border-b-[1px] border-b-gray-700"
     >
       <FadeIn>
-        <Title title="Courses" des="What I Teach" />
+        <Title title="Courses" des="What We Teach" />
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
           <Card
             title="Noorani Qaida Course"
@@ -25,8 +30,8 @@ const Feature = () => {
             icon={<FaKaaba />}
           />
           <Card
-            title="Tajweed Course"
-            des="Unlock the beauty and precision of Quranic recitation with our Tajweed Course, where students master the intricate rules and melodies of Tajweed to recite the Quran with clarity and reverence."
+            title=" FSC, O Level"
+            des="Committed to cultivating academic success, offering expert guidance in FSC and O Level studies. Equipped with mastery in diverse subjects, we empower students for educational excellence."
             icon={<SiProgress />}
           />
           <Card

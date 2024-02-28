@@ -13,15 +13,15 @@ const ContactLeft = () => {
         <h3 className="text-3xl font-bold text-white">Uzair</h3>
         <p className="text-lg font-normal text-gray-400">Islamic Scholar</p>
         <p className="text-base text-gray-400 tracking-wide">
-          Cultivating Quranic understanding for over 4 years, I'm dedicated to
-          guiding students on their spiritual journey through online Quran
-          teaching, fostering deep connections to the sacred text.
+          Dedicated Quran teacher with a passion for nurturing spiritual growth.
+          Experienced educator proficient in FSC Physics, Chemistry, and Math,
+          fostering academic excellence with personalized guidance
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+923105892711</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email: <span className="text-lightText">mu242699@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
@@ -33,7 +33,7 @@ const ContactLeft = () => {
             </span>
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=+923026009873"
+            href="https://api.whatsapp.com/send?phone=+923105892711"
             target="_blank"
           >
             <span className="bannerIcon">

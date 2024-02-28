@@ -14,7 +14,7 @@ const Footer = () => {
             </span>
           </a>
           <a
-              href="https://api.whatsapp.com/send?phone=+923026009873"
+              href="https://api.whatsapp.com/send?phone=+923105892711"
               target="_blank"
             >
               <span className="bannerIcon">
