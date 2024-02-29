@@ -1,6 +1,8 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
 import { projectOne, projectThree, projectTwo } from "../assets";
+import ViderSrc from "../assets/images/projects/video.mp4";
+
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -18,21 +20,18 @@ const Projects = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
           <ProjectsCard
-            title="SOCIAL MEDIA CLONE"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            title="Mathmatics "
+            des=" Dedicated math educator with 4 years of experience, fostering student learning through innovative teaching methods and personalized attention"
             src={projectOne}
           />
           <ProjectsCard
-            title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            title="Uzair /Dars Nazami"
+            des=" Uzair, an accomplished Quran teacher with expertise in Tajweed and Dars Nazami, boasting 8 years of enriching experience in guiding students through the intricacies of Quranic recitation and Islamic studies."
             src={projectTwo}
           />
           <ProjectsCard
-            title="Chatting App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            title="Quran Teacher / Junaid"
+            des=" Quran teacher Junaid, with 7 years of experience, fostering deep understanding and reverence for the Holy Quran through personalized guidance and effective teaching methodologies."
             src={projectThree}
           />
           <ProjectsCard
@@ -43,9 +42,8 @@ const Projects = () => {
           />
           <ProjectsCard
             title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectOne}
+            des="Uzair, a dedicated Quran teacher, with 8 years of extensive experience in nurturing students' understanding and appreciation of the Quran."
+            src={ViderSrc}
           />
           <ProjectsCard
             title="Chatting App"

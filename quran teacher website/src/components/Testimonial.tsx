@@ -4,6 +4,7 @@ import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from "./Title";
 import { quote, testimonialOne, testimonialTwo } from "../assets";
+import tesemonial from "../assets/images/testmonial/tesemonal.png";
 import { FadeIn } from "./FadeIn";
 
 function SampleNextArrow(props: any) {
@@ -123,10 +124,10 @@ const Testimonial = () => {
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                          Travel Mobile App Design.
+                          Student
                         </h3>
                         <p className="text-base text-gray-400 mt-3">
-                          via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        Mar 4, 2015 - Aug 30, 2021 test
                         </p>
                       </div>
                       <div className="text-yellow-500 flex gap-1">
@@ -152,14 +153,14 @@ const Testimonial = () => {
                 <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                   <img
                     className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                    src={testimonialTwo}
+                    src={tesemonial}
                     alt="testimonialTwo"
                   />
                   <div className="w-full flex flex-col justify-end">
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                       Personal Message
                     </p>
-                    <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                    <h3 className="text-2xl font-bold">Shahbaz</h3>
                     <p className="text-base tracking-wide text-gray-500">
                       Student
                     </p>
@@ -171,10 +172,10 @@ const Testimonial = () => {
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                          Travel Mobile App Design.
+                          Student
                         </h3>
                         <p className="text-base text-gray-400 mt-3">
-                          via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                          Mar 4, 2015 - Aug 30, 2021 test
                         </p>
                       </div>
                       <div className="text-yellow-500 flex gap-1">
@@ -200,7 +201,7 @@ const Testimonial = () => {
                 <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#020617] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                   <img
                     className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                    src={testimonialOne}
+                    src={testimonialTwo}
                     alt="testimonialOne"
                   />
                   <div className="w-full flex flex-col justify-end">
@@ -209,7 +210,7 @@ const Testimonial = () => {
                     </p>
                     <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
                     <p className="text-base tracking-wide text-gray-500">
-                      Student
+                     Student Father
                     </p>
                   </div>
                 </div>
@@ -223,10 +224,10 @@ const Testimonial = () => {
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                          Student
+                          Visitor
                         </h3>
                         <p className="text-base text-gray-400 mt-3">
-                          Nov 4, 2023 - Aug 30, 2021 test
+                          Nov 4, 2023 - Aug 30, 2021
                         </p>
                       </div>
                       <div className="text-yellow-500 flex gap-1">

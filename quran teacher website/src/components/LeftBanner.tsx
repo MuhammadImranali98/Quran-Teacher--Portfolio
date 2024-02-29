@@ -41,6 +41,16 @@ const LeftBanner = () => {
           Chemistry, and Math, ensuring comprehensive guidance for holistic
           student development.
         </p>
+        <p className=" hover:text-green-400">
+          WhatsApp :{" "}
+          <a
+            href="https://api.whatsapp.com/send?phone=+923026009873"
+            target="_blank"
+          >
+            {" "}
+            +923105892711{" "}
+          </a>
+        </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
