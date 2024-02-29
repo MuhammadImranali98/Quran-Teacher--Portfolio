@@ -1,7 +1,7 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
 import { projectOne, projectThree, projectTwo } from "../assets";
-import ViderSrc from "../assets/images/projects/video.mp4";
+
 
 import { FadeIn } from "./FadeIn";
 
@@ -43,7 +43,7 @@ const Projects = () => {
           <ProjectsCard
             title="E-commerce Website"
             des="Uzair, a dedicated Quran teacher, with 8 years of extensive experience in nurturing students' understanding and appreciation of the Quran."
-            src={ViderSrc}
+            src={projectThree}
           />
           <ProjectsCard
             title="Chatting App"
