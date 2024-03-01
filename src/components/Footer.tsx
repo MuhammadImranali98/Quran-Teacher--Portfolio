@@ -8,21 +8,27 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
-          <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+          <a
+            href="https://www.youtube.com/channel/UC22nXW2M7wTVnpw5yqZh8bQ"
+            target="_blank"
+          >
             <span className="bannerIcon">
               <FaYoutube />
             </span>
           </a>
           <a
-               href="https://api.whatsapp.com/send?phone=923105892711"
-               target="_blank"
-               rel="noopener noreferrer"
+            href="https://api.whatsapp.com/send?phone=923105892711"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <span className="bannerIcon">
               <FaWhatsapp />
             </span>
           </a>
-          <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+          <a
+            href="https://www.facebook.com/share/WmCPQTUgKR73FSRX/?mibextid=qi2Omg"
+            target="_blank"
+          >
             <span className="bannerIcon">
               <FaFacebookF />
             </span>
@@ -58,12 +64,7 @@ const Footer = () => {
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Contact
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+          
         </ul>
       </div>
       <div className="w-full h-full">
@@ -74,9 +75,9 @@ const Footer = () => {
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
               <a
-                 href="https://api.whatsapp.com/send?phone=923105892711"
-                 target="_blank"
-                 rel="noopener noreferrer"
+                href="https://api.whatsapp.com/send?phone=923105892711"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {" "}
                 Whatsapp{" "}
@@ -86,25 +87,23 @@ const Footer = () => {
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Facebook
+              <a
+                href="https://www.facebook.com/share/WmCPQTUgKR73FSRX/?mibextid=qi2Omg"
+                target="_blank"
+              >
+                Facebook
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Youtube
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Pricing
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Over Right
+              <a
+                href="https://www.youtube.com/channel/UC22nXW2M7wTVnpw5yqZh8bQ"
+                target="_blank"
+              >
+                Youtube
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
@@ -112,27 +111,21 @@ const Footer = () => {
       </div>
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
-          DEVELOPERS
+          youtube
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Documentation
+              <a
+                href="https://www.youtube.com/channel/UC22nXW2M7wTVnpw5yqZh8bQ"
+                target="_blank"
+              >
+                Youtube
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Authentication
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              API Reference
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
+
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
               Support
@@ -141,7 +134,14 @@ const Footer = () => {
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Open Source
+              <a
+                href="https://api.whatsapp.com/send?phone=923105892711"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Contact{" "}
+              </a>
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>

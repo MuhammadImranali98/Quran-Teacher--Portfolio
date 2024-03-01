@@ -59,22 +59,28 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+            <a
+              href="https://www.youtube.com/channel/UC22nXW2M7wTVnpw5yqZh8bQ"
+              target="_blank"
+            >
               <span className="bannerIcon">
                 <FaYoutube />
               </span>
             </a>
             <a
-                  href="https://api.whatsapp.com/send?phone=923105892711"
-                  target="_blank"
-                  rel="noopener noreferrer"
+              href="https://api.whatsapp.com/send?phone=923105892711"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <span className="bannerIcon">
                 <FaWhatsapp />
               </span>
             </a>
 
-            <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+            <a
+              href="https://www.facebook.com/share/WmCPQTUgKR73FSRX/?mibextid=qi2Omg"
+              target="_blank"
+            >
               <span className="bannerIcon">
                 <FaFacebookF />
               </span>

@@ -2,7 +2,6 @@ import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
 import { projectOne, projectThree, projectTwo } from "../assets";
 
-
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -33,23 +32,6 @@ const Projects = () => {
             title="Quran Teacher / Junaid"
             des=" Quran teacher Junaid, with 7 years of experience, fostering deep understanding and reverence for the Holy Quran through personalized guidance and effective teaching methodologies."
             src={projectThree}
-          />
-          <ProjectsCard
-            title="SOCIAL MEDIA CLONE"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectThree}
-          />
-          <ProjectsCard
-            title="E-commerce Website"
-            des="Uzair, a dedicated Quran teacher, with 8 years of extensive experience in nurturing students' understanding and appreciation of the Quran."
-            src={projectThree}
-          />
-          <ProjectsCard
-            title="Chatting App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectTwo}
           />
         </div>
       </FadeIn>

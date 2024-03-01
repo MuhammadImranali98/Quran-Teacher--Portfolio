@@ -34,9 +34,8 @@ const ProjectsCard = ({ title, des, src }: Props) => {
                 </span>
               </a>
               <a
-                href="https://api.whatsapp.com/send?phone=923105892711"
+                href="https://www.youtube.com/channel/UC22nXW2M7wTVnpw5yqZh8bQ"
                 target="_blank"
-                rel="noopener noreferrer"
               >
                 <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                   <FaYoutube />
