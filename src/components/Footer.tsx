@@ -14,8 +14,9 @@ const Footer = () => {
             </span>
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=+923105892711"
-            target="_blank"
+               href="https://api.whatsapp.com/send?phone=923105892711"
+               target="_blank"
+               rel="noopener noreferrer"
           >
             <span className="bannerIcon">
               <FaWhatsapp />
@@ -73,8 +74,9 @@ const Footer = () => {
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
               <a
-                href="https://api.whatsapp.com/send?phone=+923105892711"
-                target="_blank"
+                 href="https://api.whatsapp.com/send?phone=923105892711"
+                 target="_blank"
+                 rel="noopener noreferrer"
               >
                 {" "}
                 Whatsapp{" "}

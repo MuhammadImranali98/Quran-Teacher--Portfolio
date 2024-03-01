@@ -41,14 +41,15 @@ const LeftBanner = () => {
           Chemistry, and Math, ensuring comprehensive guidance for holistic
           student development.
         </p>
-        <p className=" hover:text-green-400">
+        <p className="hover:text-green-400">
           WhatsApp :{" "}
           <a
-            href="https://api.whatsapp.com/send?phone=+923026009873"
+            href="https://api.whatsapp.com/send?phone=923105892711"
             target="_blank"
+            rel="noopener noreferrer"
+            className="tracking-wider hover:text-green-400"
           >
-            {" "}
-            +923105892711{" "}
+            +923105892711
           </a>
         </p>
       </div>
@@ -64,8 +65,9 @@ const LeftBanner = () => {
               </span>
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=+923026009873"
-              target="_blank"
+                  href="https://api.whatsapp.com/send?phone=923105892711"
+                  target="_blank"
+                  rel="noopener noreferrer"
             >
               <span className="bannerIcon">
                 <FaWhatsapp />

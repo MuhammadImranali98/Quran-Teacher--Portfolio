@@ -127,7 +127,7 @@ const Testimonial = () => {
                           Student
                         </h3>
                         <p className="text-base text-gray-400 mt-3">
-                        Mar 4, 2015 - Aug 30, 2021 test
+                          Mar 4, 2015 - Aug 30, 2021 test
                         </p>
                       </div>
                       <div className="text-yellow-500 flex gap-1">
@@ -187,8 +187,9 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                      Hafiz Uzair is a very good teacher. He teaches well and
-                      has a good grasp of his subject. Allahuma barik
+                    Amazing teacher! He understood all my needs, corrected my
+                      makharij and Tajweed, and taught me the rules as well:
+                      Very responsive and flexible with timing, Mashallah!
                     </p>
                   </div>
                 </div>
@@ -208,9 +209,9 @@ const Testimonial = () => {
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                       Personal Message
                     </p>
-                    <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                    <h3 className="text-2xl font-bold">Farhan</h3>
                     <p className="text-base tracking-wide text-gray-500">
-                     Student Father
+                      Student Father
                     </p>
                   </div>
                 </div>
@@ -239,9 +240,9 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                      Amazing teacher! He understood all my needs, corrected my
-                      makharij and Tajweed, and taught me the rules as well:
-                      Very responsive and flexible with timing, Mashallah!
+                     
+                      Hafiz Uzair is a very good teacher. He teaches well and
+                      has a good grasp of his subject. Allahuma barik
                     </p>
                   </div>
                 </div>
