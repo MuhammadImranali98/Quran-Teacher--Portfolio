@@ -1,10 +1,7 @@
 import React from "react";
 
 const Content: React.FC = () => {
-  const videoUrls: string[] = [
-    "https://www.youtube.com/embed/cbL4L6727Wc",
-    "https://www.youtube.com/embed/cdNkuC0IBZs",
-  ];
+  const videoUrls: string[] = ["https://www.youtube.com/embed/cbL4L6727Wc"];
 
   return (
     <section className="py-16 border-b border-b-slate-100 border-opacity-20">
